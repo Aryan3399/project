@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Assistant,-apple-system,BlinkMacsystemFont,Segoe UI,Robot,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+
+}
+
+
+.logo_container{
+    height: 15px;
+    width: 30px;
+}
+
+.psp_logo{
+    height: 50px;
+    width: 75px;
+    size: 35px;
+    padding-top: 10px;
+}
+
+nav ul{
+    text-align: right;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    line-height: 60px;
+}
+
+nav li{
+    display: inline-block; 
+}
+
+nav li a{
+    font-size: 15px;
+    padding: 0px 30px;
+    text-decoration: none;
+}
+
+.stick {
+    border-left: 10px solid  rgb(231, 88, 112);
+    height: 310px;
+    padding: 20px;
+    margin-left: 70px;
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 53px;
+}
+
+.text2 {
+    display: inline-block;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 125px;
+    font-weight: normal;  
+}
+
+.text3 {
+    font-size: 40px;
+    line-height: 4px;
+    padding-bottom: 50px;
+}
+
+.number {
+    line-height: 103px;
+    padding-left: 106px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.button {
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,71,29,1) 50%, rgba(252,176,69,1) 100%);
+    border: none;
+    color: wheat;
+    padding: 15px 52px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 12px 85px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.controller {
+    display: block;
+    margin-left: 69%;
+    margin-right: 10%;
+    padding-top: 0px;
+    padding-bottom:40px ;
+    margin-top: -381px;
+    position: relative;
+    max-width: 399px;
+}
+
+.facebook {
+    height: 40px;
+    margin-left: 594px;
+    margin-top: 61px;
+    margin-bottom: 49px;
+}
+
+.instagram {
+    height: 50px;
+    margin-left: 667px;
+    margin-top: -15px;
+    margin-bottom: 50px;
+}
+
+.twitter {
+    height: 32px;
+    margin-left: 754px;
+    margin-top: -52px;
+    margin-bottom: 50px;
+}
